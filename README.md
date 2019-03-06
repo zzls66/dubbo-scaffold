@@ -1,13 +1,13 @@
 # dubbo-scaffold
 一个基于ssm+dubbo的脚手架，还在持续更新中......
 
-# 服务列表服务
+# 项目列表
 
 | 项目      |  描述 | 端口 | 备注  |
 | :-------- | --------:| :--: | ---- |
 | scaffold-common | 依赖 |  无  |  公共服务包  |
 | scaffold-parent | 父控项目，用来管理mave依赖的jar的版本 | 无 | 父控  |
-| user-service | dubbo服务,jar依赖于scaffold-parent的scaffold-dubbo | 20880 | 用户服务 |
+| user-service | dubbo服务,jar依赖于scaffold-parent的scaffold-dubbo | 20880 |  |
 | business-service | dubbo服务,jar依赖于scaffold-parent的scaffold-dubbo | 20881 |  |
 | business-activity | 服务,jar依赖于scaffold-parent的scaffold-web  | 8081 |  web |
 |  |  |  |  |
