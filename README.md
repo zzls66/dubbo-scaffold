@@ -15,17 +15,17 @@
 
 | 项目   | 子项目 |  描述 | 端口 | 备注  |
 | :-------- | :-------- | --------:| :--: | ---- |
-| scaffold-common | scaffold-common | 依赖 |  无  |  公共服务包  |
-| scaffold-parent | scaffold-common | 父控项目，用来管理mave依赖的jar的版本 | 无 | 父控  |
+| scaffold-common |  | 依赖 |  无  |  公共服务包  |
+| scaffold-parent |  | 父控项目，用来管理mave依赖的jar的版本 | 无 | 父控  |
 |  | scaffold-dubbo | 父控项目，用来管理mave依赖的jar的版本 | 无 | 父控  |
 |  | scaffold-web | 父控项目，用来管理mave依赖的jar的版本 | 无 | 父控  |
 | user-service | scaffold-common | dubbo服务,jar依赖于scaffold-parent的scaffold-dubbo | 20880 |  |
 |  | user-api |  |  |  |
 |  | user-provider |  |  |  |
-| business-service | scaffold-common | dubbo服务,jar依赖于scaffold-parent的scaffold-dubbo | 20881 |  |
+| business-service |  | dubbo服务,jar依赖于scaffold-parent的scaffold-dubbo | 20881 |  |
 |  | business-api |  |  |  |
 |  | business-provider |  |  |  |
-| business-web | scaffold-common | web服务,jar依赖于scaffold-parent的scaffold-web  | 8081 |  web |
+| business-web |  | web服务,jar依赖于scaffold-parent的scaffold-web  | 8081 |  web |
 |  |  |  |  |
 
 ------**scaffold-parent**  
