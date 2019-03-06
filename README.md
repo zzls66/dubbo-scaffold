@@ -12,19 +12,19 @@
 | business-activity | 服务  | 8081 |  web |
 |  |  |  |  |
 
-# ------scaffold-parent  
+------**scaffold-parent**  
 ------|---scaffold-dubbo   
 ------|---scaffold-web  
 
-# ------|----|---user-service   
+------|----|---**user-service**   
 ------|----|---|---user-api  
 ------|----|---|---user-provider
 
-# ------|----|---business-service   
+------|----|---**business-service**   
 ------|----|---|---business-api  
 ------|----|---|---business-provider
 
-# ------|----|---business-web
+------|----|---**business-web**
 
 
 
