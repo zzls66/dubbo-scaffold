@@ -7,9 +7,9 @@
 | :-------- | --------:| :--: | ---- |
 | scaffold-common | 依赖 |  无  |  公共服务包  |
 | scaffold-parent | 父控项目，用来管理mave依赖的jar的版本 | 无 | 父控  |
-| user-service | dubbo服务 | 20880 | 用户服务 |
-| business-service | dubbo服务 | 20881 |  |
-| business-activity | 服务  | 8081 |  web |
+| user-service | dubbo服务,jar依赖于scaffold-parent的scaffold-dubbo | 20880 | 用户服务 |
+| business-service | dubbo服务,jar依赖于scaffold-parent的scaffold-dubbo | 20881 |  |
+| business-activity | 服务,jar依赖于scaffold-parent的scaffold-web  | 8081 |  web |
 |  |  |  |  |
 
 ------**scaffold-parent**  
