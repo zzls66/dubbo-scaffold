@@ -33,4 +33,8 @@
 ------|----|---**business-web**
 
 
-
+# telnet命令
+telnet 192.168.1.68 20880  
+dubbo>ls  
+com.zzl.user.IUserCoreService  
+dubbo>invoke com.zzl.user.IUserCoreService.register({"username":"zzzz","password":"123456","mobile":"123456","sex":"1"})  
