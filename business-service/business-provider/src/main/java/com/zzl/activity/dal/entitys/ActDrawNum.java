@@ -1,11 +1,6 @@
 package com.zzl.activity.dal.entitys;
 
-/**
- * 腾讯课堂搜索 咕泡学院
- * 加群获取视频：608583947
- * 风骚的Michael 老师
- * 抽奖资格
- */
+
 public class ActDrawNum {
     private Integer id;
     private Integer uid;
